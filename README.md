@@ -18,6 +18,7 @@
 
 > 注意：TV版本为我本人发布，Bug还很多，有空再修(￣y▽,￣)╭ 
 > 目前的TV版只是一个能用的状态，因为Bug多所以也暂时不发布APK，有能力的自己打包测试
+> TV端聚焦的包用的是https://github.com/slailcp/tv-focusable-example
 
 [![Library][library-screenshot]](https://music.qier222.com)
 
