@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="referrer" content="no-referrer" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+</head>
+
+<body>
+  <noscript>
+    <div>很抱歉，如果没有启用JavaScript，<%= htmlWebpackPlugin.options.title %>无法正常工作。请使其继续。
+    </div>
+    <div>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</div>
+  </noscript>
+  <div id="app">
+    加载中
+  </div>
+  <!-- built files will be auto injected -->
+  <style>
+    body {
+      margin: 0;
+    }
+    div {
+      color: #888;
+      font-size: 12px;
+    }
+    #app {
+      display: flex;
+      height: 100vh;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      font-size: 28px;
+    }
+    noscript {
+      position: fixed;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+    }
+  </style>
+
+</body>
+</html>
