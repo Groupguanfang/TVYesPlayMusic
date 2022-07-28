@@ -16,6 +16,8 @@
   </p>
 </p>
 
+> 注意：TV版本为我本人发布，Bug还很多，有空再修(￣y▽,￣)╭ 
+
 [![Library][library-screenshot]](https://music.qier222.com)
 
 ## ✨ 特性
