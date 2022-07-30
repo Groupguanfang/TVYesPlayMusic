@@ -2,6 +2,7 @@
   <div ref="contextMenu" class="context-menu">
     <div
       v-if="showMenu"
+      id="menu"
       ref="menu"
       class="menu"
       tabindex="-1"
@@ -68,6 +69,7 @@ export default {
 
     openMenu() {
       this.showMenu = true;
+      this.$tv.limitingEl = document.querySelector('#menu');
       // this.$nextTick(
       //   function () {
       //     this.$refs.menu.focus();

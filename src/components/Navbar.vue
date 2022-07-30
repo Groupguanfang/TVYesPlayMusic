@@ -72,6 +72,7 @@
       <!-- 设置 -->
       <div
         ref="tv_settings"
+        id="tv_settings"
         class="item"
         @click="toSettings"
         v-focusable="true"
@@ -97,7 +98,7 @@
         class="item"
         ref="tv_logout"
         @click="logout"
-        @up="tv_up('logout')"
+        @up="tv_up('github')"
         @down="tv_down('logout')"
       >
         <svg-icon icon-class="logout" />
@@ -227,7 +228,6 @@ export default {
     },
     showUserProfileMenu(e) {
       this.$refs.userProfileMenu.openMenu(e);
-      //this.$tv.requestFocus(this.$refs.tv_settings);
     },
     logout() {
       if (!confirm('确定要退出登录吗？')) return;
